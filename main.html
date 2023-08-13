@@ -8,72 +8,57 @@
 
 <body>
 <form method="post">
-    <div>
 
-        <label for="Name">Name*</label><br>
-        <input type="name" id="name"   placeholder="Name" required>
-    </div>
-    <br>
-    <div>
-    <label for="Email">Email*</label>
-    <input type="Email" id="email" placeholder="Email"  required>
-   </div>
-    <br>
-    <div>
+		<label for="name">Name*</label>
+		<input type="text" id="name" placeholder="Nmae" required><br>
 
-        <label for="Gender">Gender*</label><br>
-        <label for="gender_m">Male</label>
-      <input type="radio"   id="gender_m"  value="Male" name="Gender" >
-        <br>
-        <label for="gender_f">Female</label>
-      <input type="radio"  name="Gender"  id="gender_f" value="Female"><br>
-    </div>
-    <br>
-    <div>
-        <label for="charset">Car Brands</label>
-        <select name="" id="cars" required>
-            <option value="disabled selected">--Please choose an option</option>
-            <option value="Audi">Audi</option>
-            <option value="BMW">BMW</option>
-            <option value="Mercedez">Mercedez</option>
-        </select>
-    </div>
-    <br>
-    <div>
-        <label for="Age">Age*</label><br>
-        <input type="number" id="age" placeholder="Age">
+		<label for="email">Email*</label>
+		<input type="email" id="email" placeholder="Email" required><br>
 
-    </div>
-    <br>
-    <div>
-        <label for="DOB">DOB</label><br>
-        <input type="date" name="" id="dob" required>
-    </div>
-    <br>
-    
-    <div>
-        <label for="Phone Number">Phone Number</label><br>
-        <input type="tel" id="tel" value="" placeholder="xxx-xxx-xxxx" >
-    </div>
-    <br>
-    <div>
-        <label for="Password">Password*</label> <br>
-        <input type="password" id="password" name="password" maxlength="8" >
-    </div>
+		<label for="gender">Gender*</label>
+		<input type="radio" id="gender_m" name="gender" required>
+		<label for="gender_m">Male</label>
+		<input type="radio" name="gender" id="gender_f" required>
+		<label for="gender_f">Female</label><br>
 
-    <br>
-    <div>
-        <label for="tos"> I  agree to the TOS </label>
-        <input type="checkbox" name="" id="tos" required> <br>
-    </div>
+		<label for="cars">Car Brands*</label>
+		<select id="cars" required>
+			<option value="" disabled selected>--Please choose an option</option>
+			<option value="bmv">BMW</option>
+			<option value="audi">AUDI</option>
+			<option value="mercedez">MERCEDEZ</option> 
+			
+		</select><br>
+		
+		<label for="age">AGE*</label>
+		<input type="number" id="age" placeholder="Age" required> <br>
 
-    <br>
-    <div>
-        <input type="submit" name="" id="">
-    </div>
+		<label for="dob">DOB*</label>
+		<input type="date" id="dob" required> <br>
 
-</form>
-	
+		<label for="tel">Phone Number</label>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"><br>
+
+		<label for="password">Password*</label>
+
+
+		<input type="password" id="password"  name="password" placeholder="Password" required><br>
+
+
+		
+		<label for="tos">I agree to the TOS </label>
+		<input type="checkbox"  name="" id="tos"  required ><br>
+
+		<input type="submit" value="submit">
+
+
+
+
+
+
+		
+	</form>
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
